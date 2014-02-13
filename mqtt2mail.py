@@ -119,6 +119,9 @@ def on_message(mosq, userdata, msg):
             subject = conf['topicsubject'][sub]
             break
     
+    if subject is None:
+        return
+        
     for recipient in recipients:
         logging.debug("Sending email to %s [%s]..." % (recipient, subject))
         send_mail(username, password, [recipient], subject, payload)
