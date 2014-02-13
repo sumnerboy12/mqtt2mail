@@ -1,4 +1,12 @@
-mqtt2mail
-=========
+# mqtt2mail
 
-Subscribe to MQTT topics (with wildcards) and send updates via email
+This program subscribes to any number of MQTT topics (including wildcards) and publishes received payloads as email messages (copy `mqtt2mail.conf.sample` to `mqtt2mail.conf` for use). 
+
+See details in the config sample for how to configure this script.
+
+## Requirements
+
+* An MQTT broker (e.g. [Mosquitto](http://mosquitto.org))
+* Email address and authentication details
+* The Paho Python module: `pip install paho-mqtt`
+

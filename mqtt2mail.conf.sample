@@ -1,0 +1,28 @@
+# Logging
+import logging
+loglevel = logging.DEBUG
+logformat = '%(asctime)-15s %(message)s'
+
+# MQTT Broker
+broker = 'localhost'
+port = 1883
+username = None
+password = None
+lwt = None
+
+# Mail authentication
+mailusername='hardwicke.street@gmail.com'
+mailpassword='$1F,lDE:YSpnQA^3'
+
+# Mail recipients
+recipient = {
+    'ben.jones12@gmail.com',
+    'reneejones56@hotmail.com',
+}
+
+# MQTT topics -> email subject
+topicsubject = {
+    '/openhab/notification/alarm'  : 'openHAB - Alarm'
+}
+
+
