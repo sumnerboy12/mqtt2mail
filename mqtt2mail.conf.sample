@@ -11,18 +11,18 @@ password = None
 lwt = None
 
 # Mail authentication
-mailusername='hardwicke.street@gmail.com'
-mailpassword='$1F,lDE:YSpnQA^3'
+mailusername='email@mailbox.com'
+mailpassword='password'
 
 # Mail recipients
 recipient = {
-    'ben.jones12@gmail.com',
-    'reneejones56@hotmail.com',
+    'recipient1@gmail.com',
+    'recipient2@gmail.com',
 }
 
 # MQTT topics -> email subject
 topicsubject = {
-    '/openhab/notification/alarm'  : 'openHAB - Alarm'
+    'notification/info'  : 'Information'
 }
 
 
