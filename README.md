@@ -1,5 +1,9 @@
 # mqtt2mail
 
+
+NOTE: this script has been superceeded by [mqttwarn](https://github.com/jpmens/mqttwarn).
+
+
 This program subscribes to any number of MQTT topics (including wildcards) and publishes received payloads as email messages (copy `mqtt2mail.conf.sample` to `mqtt2mail.conf` for use). 
 
 See details in the config sample for how to configure this script.
